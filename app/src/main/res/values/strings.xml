@@ -1,8 +1,6 @@
 <resources>
-    <string name="app_name">UniGPS Fleet Tracking</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
+    <string name="app_name">App Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
 </resources>
