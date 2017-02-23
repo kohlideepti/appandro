@@ -147,4 +147,16 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
              Log.d(getClass().getSimpleName(),connectionResult.toString());
     }
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
+
+    public void onBackPressed() {
+        finish();
+    }
+
 }
